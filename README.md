@@ -1,3 +1,2 @@
-# mastrampas
 # mastampa
 # mastampa
