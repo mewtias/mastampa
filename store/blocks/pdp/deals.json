@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#deals": {
+      "children": [
+        "flex-layout.col#deals1",
+        "flex-layout.col#deals2"
+      ],
+      "props": {
+        "blockClass": "vermas",
+        "marginBottom": 8
+      }
+    },
+  
+    "flex-layout.col#deals1": {
+      "children": [
+        "image#deal1",
+        "rich-text#deal1"
+      ],
+      "props": {
+        
+      }
+    },
+    "image#deal1": {
+      "props": {
+        "src": "https://mastampa.vtexassets.com/arquivos/credit-card.png",
+        "maxHeight": "40px"
+      }
+    },
+    "rich-text#deal1": {
+      "props": {
+        "text": "3 CUOTAS SIN INTERÉS",
+        "blockClass": "deals",
+        "width": "34%"
+      }
+    },
+    "flex-layout.col#deals2": {
+      "children": [
+        "image#deal2",
+        "rich-text#deal2"
+      ],
+      "props": {
+
+      }
+    },
+    "image#deal2": {
+      "props": {
+        "src": "https://mastampa.vtexassets.com/arquivos/package.png",
+        "maxHeight": "40px"
+      }
+    },
+    "rich-text#deal2": {
+      "props": {
+        "text": "ENVÍOS A TODO<br>CHILE",
+        "blockClass": "deals"
+      }
+    }
+  }
+  

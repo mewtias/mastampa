@@ -1,0 +1,17 @@
+{
+    "menu-item#nuevacoleccion": {
+        "props": {
+          "id": "menu-item-nuevacoleccion",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nuevos-productos",
+            "noFollow": true,
+            "tagTitle": "NUEVA COLECCIÓN",
+            "text": "NUEVA COLECCIÓN"
+          }
+        }
+      }
+}

@@ -1,0 +1,182 @@
+{
+    "menu-item#calzado": {
+        "props": {
+          "id": "menu-item-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado",
+            "noFollow": true,
+            "tagTitle": "CALZADO",
+            "text": "CALZADO"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#calzado"
+        ]
+      },
+      "vtex.menu@2.x:submenu#calzado": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-calzado"
+        ]
+      },
+      
+      "flex-layout.row#menu-calzado": {
+        "children": [
+          "flex-layout.col#menu-calzado-1"
+        ]
+      },
+      "flex-layout.col#menu-calzado-1": {
+        "children": [
+          "vtex.menu@2.x:menu#calzado"
+        ]
+      },
+      "vtex.menu@2.x:menu#calzado": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#ballerina",
+          "menu-item#bota",
+          "menu-item#botin",
+          "menu-item#mocasin",
+          "menu-item#sandalia",
+          "menu-item#zapatilla",
+          "menu-item#zapato",
+          "menu-item#zueco"
+        ]
+      },
+      "menu-item#ballerina": {
+        "props": {
+          "id": "menu-item-ballerina",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Ballerina/",
+            "noFollow": true,
+            "tagTitle": "BALLERINA",
+            "text": "BALLERINA"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#bota": {
+        "props": {
+          "id": "menu-item-bota",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Bota/",
+            "noFollow": true,
+            "tagTitle": "BOTA",
+            "text": "BOTA"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#botin": {
+        "props": {
+          "id": "menu-item-botin",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Botin/",
+            "noFollow": true,
+            "tagTitle": "BOTIN",
+            "text": "BOTIN"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#mocasin": {
+        "props": {
+          "id": "menu-item-mocasin",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Mocasin/",
+            "noFollow": true,
+            "tagTitle": "MOCASIN",
+            "text": "MOCASIN"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#sandalia": {
+        "props": {
+          "id": "menu-item-sandalia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Sandalia/",
+            "noFollow": true,
+            "tagTitle": "SANDALIA",
+            "text": "SANDALIA"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#zapatilla": {
+        "props": {
+          "id": "menu-item-zapatilla",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Zapatilla/",
+            "noFollow": true,
+            "tagTitle": "ZAPATILLA",
+            "text": "ZAPATILLA"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#zapato": {
+        "props": {
+          "id": "menu-item-zapato",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Zapato/",
+            "noFollow": true,
+            "tagTitle": "ZAPATO",
+            "text": "ZAPATO"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#zueco": {
+        "props": {
+          "id": "menu-item-zueco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Calzado/Zueco/",
+            "noFollow": true,
+            "tagTitle": "ZUECO",
+            "text": "ZUECO"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      }
+}

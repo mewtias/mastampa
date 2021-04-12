@@ -1,0 +1,66 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+      
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#row-01",
+      "vtex.menu@2.x:menu#row-02",
+      "vtex.menu@2.x:menu#row-03"
+    ],
+    "props": {
+      "blockClass": "footer-desktop",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/mastampacl"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/mastampacl/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["image#medios-pago"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "image#medios-pago": {
+    "props": {
+      "src": "https://mastampa.vteximg.com.br/arquivos/mediospago.png",
+      "maxHeight": 50
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  }
+}

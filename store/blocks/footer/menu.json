@@ -1,0 +1,174 @@
+{
+  "vtex.menu@2.x:menu#row-01": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienessomos",
+      "menu-item#nuestrastiendas",
+      "menu-item#contacto"
+    ]
+  },
+  "menu-item#quienessomos": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Quienes Somos",
+        "text": "Quienes Somos"
+      }
+    }
+  },
+  "menu-item#nuestrastiendas": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nuestras tiendas",
+        "text": "Nuestras tiendas"
+      }
+    }
+  },
+  "menu-item#contacto": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#row-02": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos",
+      "menu-item#mediosdepago",
+      "menu-item#devoluciones"
+    ]
+  },
+
+  "menu-item#terminos": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#mediosdepago": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Medios de pago",
+        "text": "Medios de pago"
+      }
+    }
+  },
+
+  "menu-item#devoluciones": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Devoluciones",
+        "text": "Devoluciones"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#row-03": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mivendedora",
+      "menu-item#mispedidos",
+      "menu-item#micuenta"
+    ]
+  },
+
+  "menu-item#mivendedora": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Mi vendedora",
+        "text": "Mi vendedora"
+      }
+    }
+  },
+
+  "menu-item#mispedidos": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mis pedidos",
+        "text": "Mis pedidos"
+      }
+    }
+  },
+
+  "menu-item#micuenta": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mi cuenta",
+        "text": "Mi cuenta"
+      }
+    }
+  }
+}
