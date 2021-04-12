@@ -1,0 +1,258 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.infoCardContainer--info-card-noticias-left {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #918577;
+  padding: 20px;
+  height: 450px;
+}
+
+.newsletter {
+  background-color: transparent !important;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.newsletter .form .label{
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.newsletter .form .buttonContainer{
+  padding-left: 0px;
+}
+
+.newsletter .form :global(.vtex-input-prefix__group){
+  border-radius: 0px;
+}
+
+.newsletter .form :global(.vtex-button){
+  color: black;
+  text-transform: capitalize;
+  border: none;
+  position: absolute;
+  right: 0;
+  margin-right: 0px;;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.newsletter .form :global(.vtex-button) :global(.vtex-button__label){
+  padding-bottom: 0.25em !important;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+  position: relative;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  border: none;
+}
+
+.inputGroup
+:global(.vtex-styleguide-9-x-noAppearance)::placeholder{
+  color: white;
+  font-size: 14px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+  color: #3f3f40;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 50px 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 50%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 50%;
+    height: 400px;
+  }
+  .infoCardContainer--info-card-noticias-left .infoCardTextContainer {
+    width: 50%;
+    background-color: #fff;
+    height: 410px;
+  }
+
+  .infoCardContainer--info-card-noticias-left .infoCardImageContainer {
+    width: 50%;
+  }
+  
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logoContainer .logoImage{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+/* p r o d u c t o | ficha de producto*/
+
+.productNameContainer--quickview{
+  text-align-last: center;
+}
+.productBrand--quickview{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.searchBarIcon--clear{
+  color: white;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference){
+  font-size: .7rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: #9C9B9B;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice){
+  color: #CF478A;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-page)
+:global(.vtex-product-price-1-x-sellingPrice){
+  margin-top: 10px;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue){
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skuSelectorTextContainer{
+  text-align: center;
+}
+
+.skuSelectorTextContainer .skuSelectorName{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.skuSelectorOptionsList{
+  justify-content: center;
+}
+
+.skuSelectorItem--selected .frameAround{
+  display: block;
+  background-color: #F6E9F8;
+  border: none;
+  border-radius: 0px;
+}
+
+.skuSelectorItem .skuSelectorItemTextValue{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.skuSelectorInternalBox{
+  border: none;
+}
+
+.diagonalCross{
+  display: none;
+}
+
+.productDescriptionTitle{
+  text-align-last: center;
+  font-size: .9rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.productDescriptionText{
+  text-align-last: center;
+  font-size: .8rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.productImagesContainer--list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px 0px;
+  margin: 0 30px;
+}

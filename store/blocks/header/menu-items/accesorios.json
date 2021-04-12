@@ -1,0 +1,586 @@
+{
+    "menu-item#accesorios": {
+        "props": {
+          "id": "menu-item-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#accesorios"
+        ]
+      },
+      "vtex.menu@2.x:submenu#accesorios": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-accesorios"
+        ]
+      },
+      "flex-layout.row#menu-accesorios": {
+        "children": [
+          "flex-layout.col#menu-accesorios-1",
+          "flex-layout.col#menu-accesorios-2",
+          "flex-layout.col#menu-accesorios-3",
+          "flex-layout.col#menu-accesorios-4"
+        ]
+      },
+      "flex-layout.col#menu-accesorios-1": {
+        "children": [
+          "vtex.menu@2.x:menu#accesorios"
+        ]
+      },
+      "flex-layout.col#menu-accesorios-2": {
+        "children": [
+          "vtex.menu@2.x:menu#accesorios2"
+        ]
+      },
+      "flex-layout.col#menu-accesorios-3": {
+        "children": [
+          "vtex.menu@2.x:menu#accesorios3"
+        ]
+      },
+      "flex-layout.col#menu-accesorios-4": {
+        "children": [
+          "vtex.menu@2.x:menu#accesorios4"
+        ]
+      },
+      "vtex.menu@2.x:menu#accesorios": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#bolsosycarteras",
+          "menu-item#bolso",
+          "menu-item#cartera",
+          "menu-item#monederosybilleteras",
+          "menu-item#billetera",
+          "menu-item#monedero",
+          "menu-item#playa",
+          "menu-item#camisola",
+          "menu-item#pareo",
+          "menu-item#toalla"
+        ]
+      },
+      "menu-item#bolsosycarteras": {
+        "props": {
+          "id": "menu-item-bolsosycarteras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Bolsos-y-Carteras",
+            "noFollow": true,
+            "tagTitle": "BOLSOS Y CARTERAS",
+            "text": "BOLSOS Y CARTERAS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#bolso": {
+        "props": {
+          "id": "menu-item-bolso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Bolsos-y-Carteras/Bolso",
+            "noFollow": true,
+            "tagTitle": "Bolso",
+            "text": "Bolso"
+          }
+        }
+      },
+      "menu-item#cartera": {
+        "props": {
+          "id": "menu-item-cartera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Bolsos-y-Carteras/Cartera",
+            "noFollow": true,
+            "tagTitle": "Cartera",
+            "text": "Cartera"
+          }
+        }
+      },
+      "menu-item#monederosybilleteras": {
+        "props": {
+          "id": "menu-item-monederosybilleteras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Monederos-y-Billeteras",
+            "noFollow": true,
+            "tagTitle": "MONEDEROS Y BILLETERAS",
+            "text": "MONEDEROS Y BILLETERAS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#billetera": {
+        "props": {
+          "id": "menu-item-billetera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Monederos-y-Billeteras/Billetera",
+            "noFollow": true,
+            "tagTitle": "Billetera",
+            "text": "Billetera"
+          }
+        }
+      },
+      "menu-item#monedero": {
+        "props": {
+          "id": "menu-item-monedero",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Monederos-y-Billeteras/Monedero",
+            "noFollow": true,
+            "tagTitle": "Monedero",
+            "text": "Monedero"
+          }
+        }
+      },
+      "menu-item#playa": {
+        "props": {
+          "id": "menu-item-playa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Playa",
+            "noFollow": true,
+            "tagTitle": "PLAYA",
+            "text": "PLAYA"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#camisola": {
+        "props": {
+          "id": "menu-item-camisola",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Playa/Camisola",
+            "noFollow": true,
+            "tagTitle": "Camisola",
+            "text": "Camisola"
+          }
+        }
+      },
+      "menu-item#pareo": {
+        "props": {
+          "id": "menu-item-pareo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Playa/Pareo",
+            "noFollow": true,
+            "tagTitle": "Pareo",
+            "text": "Pareo"
+          }
+        }
+      },
+      "menu-item#toalla": {
+        "props": {
+          "id": "menu-item-toalla",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Playa/Pareo",
+            "noFollow": true,
+            "tagTitle": "Toalla",
+            "text": "Toalla"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#accesorios2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#joyeria",
+          "menu-item#anillo",
+          "menu-item#aros",
+          "menu-item#cartera2",
+          "menu-item#collar",
+          "menu-item#prendedor",
+          "menu-item#pulsera"
+        ]
+      },
+      "menu-item#joyeria": {
+        "props": {
+          "id": "menu-item-joyeria",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria",
+            "noFollow": true,
+            "tagTitle": "JOYERIA",
+            "text": "JOYERIA"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#anillo": {
+        "props": {
+          "id": "menu-item-anillo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria/Anillo",
+            "noFollow": true,
+            "tagTitle": "Anillo",
+            "text": "Anillo"
+          }
+        }
+      },
+      "menu-item#aros": {
+        "props": {
+          "id": "menu-item-aros",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria/Aros",
+            "noFollow": true,
+            "tagTitle": "Aros",
+            "text": "Aros"
+          }
+        }
+      },
+      "menu-item#cartera2": {
+        "props": {
+          "id": "menu-item-cartera2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria/Cartera",
+            "noFollow": true,
+            "tagTitle": "Cartera",
+            "text": "Cartera"
+          }
+        }
+      },
+      "menu-item#collar": {
+        "props": {
+          "id": "menu-item-collar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria/Collar",
+            "noFollow": true,
+            "tagTitle": "Collar",
+            "text": "Collar"
+          }
+        }
+      },
+      "menu-item#prendedor": {
+        "props": {
+          "id": "menu-item-prendedor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria/Collar",
+            "noFollow": true,
+            "tagTitle": "Prendedor",
+            "text": "Prendedor"
+          }
+        }
+      },
+      "menu-item#pulsera": {
+        "props": {
+          "id": "menu-item-pulsera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Joyeria/Pulsera",
+            "noFollow": true,
+            "tagTitle": "Pulsera",
+            "text": "Pulsera"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#accesorios3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#complementos",
+          "menu-item#cinturon",
+          "menu-item#guantes",
+          "menu-item#lentes",
+          "menu-item#paragua",
+          "menu-item#portacelular",
+          "menu-item#reloj",
+          "menu-item#sombrero"
+        ]
+      },
+      "menu-item#complementos": {
+        "props": {
+          "id": "menu-item-complementos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos",
+            "noFollow": true,
+            "tagTitle": "COMPLEMENTOS",
+            "text": "COMPLEMENTOS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#cinturon": {
+        "props": {
+          "id": "menu-item-cinturon",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Cinturon",
+            "noFollow": true,
+            "tagTitle": "Cinturón",
+            "text": "Cinturón"
+          }
+        }
+      },
+      "menu-item#guantes": {
+        "props": {
+          "id": "menu-item-guantes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Guantes",
+            "noFollow": true,
+            "tagTitle": "Guantes",
+            "text": "Guantes"
+          }
+        }
+      },
+      "menu-item#lentes": {
+        "props": {
+          "id": "menu-item-lentes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Lentes",
+            "noFollow": true,
+            "tagTitle": "Lentes",
+            "text": "Lentes"
+          }
+        }
+      },
+      "menu-item#paragua": {
+        "props": {
+          "id": "menu-item-paragua",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Paragua",
+            "noFollow": true,
+            "tagTitle": "Paragua",
+            "text": "Paragua"
+          }
+        }
+      },
+      "menu-item#portacelular": {
+        "props": {
+          "id": "menu-item-portacelular",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Portacelular",
+            "noFollow": true,
+            "tagTitle": "Portacelular",
+            "text": "Portacelular"
+          }
+        }
+      },
+      "menu-item#reloj": {
+        "props": {
+          "id": "menu-item-reloj",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Reloj",
+            "noFollow": true,
+            "tagTitle": "Reloj",
+            "text": "Reloj"
+          }
+        }
+      },
+      "menu-item#sombrero": {
+        "props": {
+          "id": "menu-item-sombrero",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Complementos/Sombrero",
+            "noFollow": true,
+            "tagTitle": "Sombrero",
+            "text": "Sombrero"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#accesorios4": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#panuelosycapas",
+          "menu-item#bufanda",
+          "menu-item#capa",
+          "menu-item#echarpe",
+          "menu-item#panuelo",
+          "menu-item#poncho"
+        ]
+      },
+      "menu-item#panuelosycapas": {
+        "props": {
+          "id": "menu-item-panuelosycapas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Pañuelos-y-Capas",
+            "noFollow": true,
+            "tagTitle": "PA˜ÑUELOS Y CAPAS",
+            "text": "PAÑUELOS Y CAPAS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#bufanda": {
+        "props": {
+          "id": "menu-item-bufanda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Pañuelos-y-Capas/Bufanda",
+            "noFollow": true,
+            "tagTitle": "Bufanda",
+            "text": "Bufanda"
+          }
+        }
+      },
+      "menu-item#capa": {
+        "props": {
+          "id": "menu-item-capa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Pañuelos-y-Capas/Capa",
+            "noFollow": true,
+            "tagTitle": "Capa",
+            "text": "Capa"
+          }
+        }
+      },
+      "menu-item#echarpe": {
+        "props": {
+          "id": "menu-item-echarpe",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Pañuelos-y-Capas/Echarpe",
+            "noFollow": true,
+            "tagTitle": "Echarpe",
+            "text": "Echarpe"
+          }
+        }
+      },
+      "menu-item#panuelo": {
+        "props": {
+          "id": "menu-item-panuelo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Pañuelos-y-Capas/Pañuelo",
+            "noFollow": true,
+            "tagTitle": "Pañuelo",
+            "text": "Pañuelo"
+          }
+        }
+      },
+      "menu-item#poncho": {
+        "props": {
+          "id": "menu-item-poncho",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Accesorio/Pañuelos-y-Capas/Poncho",
+            "noFollow": true,
+            "tagTitle": "Poncho",
+            "text": "Poncho"
+          }
+        }
+      }
+}

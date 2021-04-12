@@ -1,0 +1,429 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "__fold__.experimentalLazyAssets",
+      "list-context.image-list#imagen2",
+      "rich-text#categorias-title",
+      "flex-layout.row#categorias-row",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "newsletter"
+    ]
+  },
+  "flex-layout.row#categorias-row": {
+    "children": [
+      "flex-layout.col#categorias-col-01",
+      "flex-layout.col#categorias-col-02",
+      "flex-layout.col#categorias-col-03",
+      "flex-layout.col#categorias-col-04",
+      "flex-layout.col#categorias-col-05"
+    ],
+    "props": {
+      "blockClass": "categorias-row"
+    }
+  },
+  "flex-layout.col#categorias-col-01": {
+    "children": [
+      "list-context.image-list#imagen-categoria-01",
+      "rich-text#texto-categoria-01"
+    ],
+    "props": {
+      "blockClass": "categorias-col"
+    }
+  },
+  "list-context.image-list#imagen-categoria-01": {
+    "children": ["slider-layout#imagen-image-01"],
+    "props": {
+      "images": [
+        {
+          "image": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
+          "mobileImage": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen-image-01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "rich-text#texto-categoria-01": {
+    "props": {
+      "text": "##### CARTERAS",
+      "blockClass": "categoria-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#categorias-col-02": {
+    "children": [
+      "list-context.image-list#imagen-categoria-02",
+      "rich-text#texto-categoria-02"
+    ],
+    "props": {
+      "blockClass": "categorias-col"
+    }
+  },
+  "list-context.image-list#imagen-categoria-02": {
+    "children": ["slider-layout#imagen-image-02"],
+    "props": {
+      "images": [
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/sweater.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/sweater.jpg",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen-image-02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "rich-text#texto-categoria-02": {
+    "props": {
+      "text": "##### SWEATERS",
+      "blockClass": "categoria-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#categorias-col-03": {
+    "children": [
+      "list-context.image-list#imagen-categoria-03",
+      "rich-text#texto-categoria-03"
+    ],
+    "props": {
+      "blockClass": "categorias-col"
+    }
+  },
+  "list-context.image-list#imagen-categoria-03": {
+    "children": ["slider-layout#imagen-image-03"],
+    "props": {
+      "images": [
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/casacasyparkas_Mesa%20de%20trabajo%201.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/casacasyparkas_Mesa%20de%20trabajo%201.jpg",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen-image-03": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "rich-text#texto-categoria-03": {
+    "props": {
+      "text": "##### CASACAS",
+      "blockClass": "categoria-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#categorias-col-04": {
+    "children": [
+      "list-context.image-list#imagen-categoria-04",
+      "rich-text#texto-categoria-04"
+    ],
+    "props": {
+      "blockClass": "categorias-col"
+    }
+  },
+  "list-context.image-list#imagen-categoria-04": {
+    "children": ["slider-layout#imagen-image-04"],
+    "props": {
+      "images": [
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/pantalones2_Mesa%20de%20trabajo%201.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/pantalones2_Mesa%20de%20trabajo%201.jpg",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen-image-04": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "rich-text#texto-categoria-04": {
+    "props": {
+      "text": "##### PANTALONES",
+      "blockClass": "categoria-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#categorias-col-05": {
+    "children": [
+      "list-context.image-list#imagen-categoria-05",
+      "rich-text#texto-categoria-05"
+    ],
+    "props": {
+      "blockClass": "categorias-col"
+    }
+  },
+  "list-context.image-list#imagen-categoria-05": {
+    "children": ["slider-layout#imagen-image-05"],
+    "props": {
+      "images": [
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/blusas2.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/blusas2.jpg",
+          "width": "95%"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen-image-05": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  "rich-text#texto-categoria-05": {
+    "props": {
+      "text": "#####  BLUSAS",
+      "blockClass": "categoria-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "slider-layout#categorias-slider-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-categorias-slider"
+    }
+  },
+  "rich-text#categorias-title": {
+    "props": {
+      "text": "##### CATEGORÍAS MÁS BUSCADAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.image-list#imagen2": {
+    "children": ["slider-layout#imagen2-images"],
+    "props": {
+      "height": "100%",
+      "images": [
+        {
+          "image": "https://mastampa.vtexassets.com/arquivos/banner_baw.jpg",
+          "mobileImage": "https://mastampa.vtexassets.com/arquivos/banner_baw.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen2-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel2"
+    }
+  },
+  
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 529,
+      "width": 1193,
+      "images": [
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/b1.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b1.jpg"
+        },
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/b2.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b2.jpg"
+        },
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/b4.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b4.jpg"
+        },
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/b5.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b5.jpg"
+        },
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/b6.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b6.jpg"
+        }
+
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "##### TE PUEDE INTERESAR",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Favoritos de invierno",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+
+  "flex-layout.row#noticias": {
+    "children": [
+      "flex-layout.row#noticias-titulo"
+    ]
+  },
+  "flex-layout.row#noticias-titulo": {
+    "children": [
+      "rich-text#text-noticias-title"
+    ]
+  },
+  "rich-text#text-noticias-title": {
+    "props": {
+      "text": "#### VIDA MA´STAMPA",
+      "blockClass": "text-noticias-title"
+    }
+  },
+  "flex-layout.row#noticias-content": {
+    "children": [
+      "flex-layout.col#noticias-left",
+      "flex-layout.col#noticias-middle",
+      "flex-layout.col#noticias-right"
+    ]
+  },
+  "flex-layout.col#noticias-left": {
+    "children": [
+      "info-card#noticias-left"
+    ],
+    "props": {
+      "blockClass": "noticias-left-col",
+      "width": "50%"
+    }
+  },
+  "info-card#noticias-left": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://mastampa.vteximg.com.br/arquivos/noticia-01.jpg",
+      "headline": "Favoritos de invierno",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-noticias-left",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#noticias-middle": {
+    "children": [
+      "flex-layout.col#noticias-right"
+    ],
+    "props": {
+      "blockClass": "noticias-right-col",
+      "width": "25%"
+    }
+  },
+  
+  "flex-layout.col#noticias-right": {
+    "children": [
+      "rich-text#title-about-us"
+    ],
+    "props": {
+      "blockClass": "noticias-right-col",
+      "width": "25%"
+    }
+  }
+}

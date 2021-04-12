@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+<head>
+    <title> Modelo Vtex</title>
+    <vtex:metaTags />
+    <vtex:template id="v3-SallyBeauty-PE-commonStyles" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--external scripts sally beauty pe-->
+    <vtex:template id="v3-SallyBeauty-PE-externalScripts"/>
+</head>
+
+<body id="product-page">
+    <div class="page">
+        <!--  SubTemplate: Header -->
+        <vtex:template id="v3-SallyBeauty-PE-Header" />
+        <!-- /SubTemplate: Header -->
+        <div id="product-extra-top"></div>
+        <section id="product-content" class="container-fluid">
+            <div class="bg-menu"></div>
+            <div id="pack_propulsow" class="pack_propulsow">
+                <div id="pp_div" class="pp_div">
+                    <div class="pp_titulo">
+                        Complementa tu compra
+                    </div>
+                    <div class="pp_elemento">
+                        <div class="pp_item_primero">
+                            <input type="hidden" class="productIdPrimero" value="1"></input>
+                            <a class="pp_item_imagen">
+                            </a>
+                            <!-- Product content -->
+                            <div class="pp_item_contenido">
+                                <!-- Product name -->
+                                <a class="pp_item_nombre" href="#">
+                                    <p class="pp_item_nombre">
+                                    </p>
+                                </a>
+                                <!-- Product price -->
+                                <p class="pp_item_precio">
+                                    <span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="pp_operador-01">+</div>
+                        <!-- Product item -->
+                        <div class="pp_item_segundo">
+                            <!-- Product actions -->
+                            <div class="pp_item_actions">
+                                <button class="pp_boton_cambiar" onclick="cambiarProducto(1)" type="button">
+                                    <i class="fas fa-sync"></i>
+                                    Cambiar
+                                </button>
+                                <button class="pp_boton_eliminar" onclick="botonEliminar(1)" type="button">
+                                    <i class="fas fa-times"></i>
+                                    Eliminar
+                                </button>
+                                <button class="pp_boton_agregar" style="display:none" onclick="botonAgregar(1)"
+                                    type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Agregar
+                                </button>
+                            </div>
+                            <a class="pp_item_imagen" href="">
+                                <img class="pp_item_img" src="" />
+                            </a>
+                            <!-- Product content -->
+                            <div class="pp_item_contenido">
+                                <!-- Product name -->
+                                <a class="pp_item_nombre" href="">
+                                    <p class="pp_item_nombre">
+                                    </p>
+                                </a>
+                                <!-- Product price -->
+                                <p class="pp_item_precio">
+                                    <span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="pp_operador">+</div>
+                        <!-- Product item -->
+                        <div class="pp_item_tercero">
+                            <!-- Product actions -->
+                            <div class="pp_item_actions">
+                                <button class="pp_boton_cambiar" onclick="cambiarProducto(2)" type="button">
+                                    <i class="fas fa-sync"></i>
+                                    Cambiar
+                                </button>
+                                <button class="pp_boton_eliminar" onclick="botonEliminar(2)" type="button">
+                                    <i class="fas fa-times"></i>
+                                    Eliminar
+                                </button>
+                                <button class="pp_boton_agregar" style="display:none" onclick="botonAgregar(2)"
+                                    type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Agregar
+                                </button>
+                            </div>
+                            <a class="pp_item_imagen" href="">
+                                <img class="pp_item_img" src="" />
+                            </a>
+                            <!-- Product content -->
+                            <div class="pp_item_contenido">
+                                <!-- Product name -->
+                                <a class="pp_item_nombre" href="">
+                                    <p class="pp_item_nombre">
+                                    </p>
+                                </a>
+                                <!-- Product price -->
+                                <p class="pp_item_precio">
+                                    <span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="pp_operador">=</div>
+                        <!-- Total -->
+                        <div class="pp_total">
+                            <div class="pp_total_icono"></div>
+                            <p>Comprar 3 productos por</p>
+                            <span class="biggy-total__price">
+                            </span>
+                            <button class="pp_boton_comprar" onclick="botonComprar()" type="button">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div id="product-extra-middle">
+                <vtex:contentPlaceHolder id="contenidoExtra" />
+            </div>            
+            <div class="product-description">
+                <div id="product-extra-description-1"></div>
+                <div id="product-extra-description-2"></div>
+                <div id="product-extra-description-3"></div>
+                <div id="product-extra-description-4"></div>
+                <div id="product-extra-description-5"></div>
+                <div class="product-retail-rocket">
+                </div>
+                <div class="productosRelacionadosRetailRocket">
+                </div>
+                <div class="productosRelacionadosRetailRocket2">
+                    <div class="product-retail-rocket2">
+                    </div>
+                </div>
+                <div class="product-description-box container">
+                    <div class="slider-productos">
+                        <hr />
+                        <vtex:contentPlaceHolder id="Quem-viu-viu-tambem" />
+                    </div>
+                    <hr />
+                    <div class="slider-productos">
+                        <hr />
+                        <vtex:contentPlaceHolder id="Te-puede-interesar" />
+                    </div>
+                </div>
+                <div id="product-extra-description-6" class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-md-8">
+                        </div>
+                    </div>
+                </div>
+                <div id="product-extra-description-7"></div>
+            </div>            
+        </section>
+
+        <div id="product-extra-bottom"></div>
+        <vtex:template id="v3-SallyBeauty-PE-Footer" />
+    </div>
+    <!-- Retail Rocket Sally Beauty Pe-->
+    <div data-retailrocket-markup-block="5fb3c2bd97a528331cb132a9" ></div>
+</body>
+<script src="/files/Product-tracker-retail-rocket.js" type="text/javascript"></script>
+<script type="text/javascript" src="/files/onesignal-push.js"></script>
+<script type="text/javascript" src="/files/pack-propulsow.js"></script>
+<vtex:template id="v3-SallyBeauty-PE-commonScripts" />
+<script>
+    $(".ver-mas-").attr("onclick", "activarButton()");
+</script>
+
+</html>

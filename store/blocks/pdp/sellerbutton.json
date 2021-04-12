@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#sellerbutton": {
+      "children": [
+        "flex-layout.col#sellerbutton"
+      ],
+      "props": {
+        "blockClass": "sellerbutton",
+        "marginBottom": 7      
+      }
+    },
+  
+    "flex-layout.col#sellerbutton": {
+      "children": [
+        "rich-text#buttontxt"
+      ]
+    },
+    "rich-text#buttontxt": {
+      "props": {
+        "text": "[CONTACTAR A UNA VENDEDORA](#)"
+        
+      }
+    }
+}
+  

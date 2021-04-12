@@ -1,0 +1,18 @@
+.input
+.hideDecorators
+.noAppearance{
+    color: white;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) .input{
+    color: white !important;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: .85rem;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) .input::placeholder{
+    color: white !important;
+}

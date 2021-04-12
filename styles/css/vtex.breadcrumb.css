@@ -1,0 +1,16 @@
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .homeLink,
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .arrow--1 .caretIcon{
+    display: none;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .link{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .link:hover{
+    color: #CF478A;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .term{
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+}

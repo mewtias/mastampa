@@ -1,0 +1,29 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+.footerLayout :global(.vtex-menu-2-x-styledLinkContent){
+  place-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #575756;
+  font-size: .8rem;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.footerLayout .socialNetworksContainer{
+  justify-content: center;
+}
+.footerLayout .socialNetworksContainer .socialNetworkLink--facebook{
+  margin-right: 70px;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer-desktop){
+  margin: 0px 20rem;
+}

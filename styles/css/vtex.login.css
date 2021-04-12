@@ -1,0 +1,16 @@
+.label{
+    text-transform: capitalize;
+    font-weight: 600 !important;
+    font-size: .7rem !important;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.container{
+    background-color: transparent;
+}
+.container:hover{
+    background-color: #e1388c;
+}
+.profileIcon{
+    color: white;
+}

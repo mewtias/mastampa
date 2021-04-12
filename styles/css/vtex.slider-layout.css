@@ -1,0 +1,132 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.sliderTrackContainer {
+  max-width: 1920px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.paginationDot--carousel{
+  border-radius: 0px;
+  width: 50px !important;
+  height: 5px !important;
+  min-height: 1px !important;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.paginationDot--isActive{
+  background-color: white;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.sliderLayoutContainer--carousel-categorias-slider{
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.sliderLayoutContainer--carousel2{
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.imageElement
+.imageElement--carousel-categorias-slider{
+  margin-bottom: 25px !important;
+  padding-left: .5rem !important;
+  padding-right: .5rem !important;
+}
+
+.imageElement--carousel{
+  max-height: revert !important;
+}
+
+.sliderLayoutContainer--carousel{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* v i t r i n a | estilo shelf*/
+.slideChildrenContainer--shelf :global(.vtex-button){
+  border-radius: 0px;
+  background-color: #e1388c!important;
+  border: none;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.slideChildrenContainer--shelf  :global(.vtex-product-summary-2-x-productBrand){
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: .85rem
+}
+
+.slideChildrenContainer--shelf :global(.vtex-product-price-1-x-sellingPrice){
+  align-self: start;
+}
+
+.slideChildrenContainer--shelf  :global(.vtex-product-price-1-x-sellingPriceValue){
+  font-size: .85rem;
+  vertical-align: text-top;
+}
+
+.slideChildrenContainer--shelf :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer){
+  color: black;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: .85rem;
+  vertical-align: text-top;
+}
+.slideChildrenContainer--shelf :global(.vtex-product-price-1-x-currencyContainer--summary){
+  color: #e1388c;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+.slideChildrenContainer--shelf :global(.vtex-product-price-1-x-savings){
+  display: none;
+}
+
+.slideChildrenContainer--shelf :global(.vtex-button){
+  display: none;
+}
+
+.sliderLayoutContainer--shelf{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--categorias-col)
+.imageElement{
+  border-radius: 10px;
+  width: 200px;
+}
+
+.paginationDotsContainer--shelf{
+  display: none;
+}

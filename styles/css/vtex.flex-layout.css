@@ -1,0 +1,289 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #e1388c !important;
+  color: #fff;
+  height: 50px;
+}
+
+.flexRowContent--main-header {
+  background-color: #ffffff !important;
+}
+
+.flexRowContent--menu-logo {
+  background-color: #63173a !important;
+  align-content: center !important;
+}
+
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #ffffff;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #000000;
+  font-size: 13px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.noticias-flex{
+  background-color: brown;
+}
+
+.flexColChild
+.flexColChild--noticias-right-col{
+  background-color: #918577;
+}
+
+.flexColChild
+.flexColChild--noticias-right-col{
+  background-color: #918577;
+}
+
+
+.flexRowContent--categorias-row {
+  background-color: #ffffff !important;
+  align-content: center !important;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+@media (min-width: 991px){
+  .flexRowContent--categorias-row {
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+}
+
+.flexRow--payment-methods{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.flexRow--menu-logo :global(.vtex-flex-layout-0-x-flexColChild){
+  align-self: center;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-menuContainerNav){
+  align-self: center;
+}
+
+/* p r o d u c t | right-col*/
+.flexRowContent--product-page{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.flexColChild--right-col{
+  align-self: center;
+}
+.flexColChild--right-col :global(.vtex-product-price-1-x-savings){
+  font-size: 0rem;
+  display: block;
+  margin-top: .8rem;
+  margin-bottom: 1.3rem;
+}
+.flexColChild--right-col :global(.vtex-product-price-1-x-savingsPercentage)::after{
+  content: ' Off';
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+.flexColChild--right-col :global(.vtex-product-price-1-x-savingsPercentage){
+  font-size: 1rem;
+  background-color: #CF478A;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px 5px;
+  font-weight: 400;
+}
+
+
+.flexColChild--right-col :global(.vtex-product-price-1-x-listPrice){
+  display: block;
+}
+.flexColChild--right-col :global(.vtex-store-components-3-x-skuSelectorTextContainer)::after{
+  content: 'Guía de tallas';
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+}
+.flexColChild--right-col :global(.vtex-store-components-3-x-skuSelectorName){
+  font-size: 0;
+}
+.flexColChild--right-col
+:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart)
+:global(.vtex-button){
+  padding: 10px 2.9rem; 
+  border: 2px solid #CF478A;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.flexColChild--right-col
+:global(.vtex-flex-layout-0-x-flexRowContent--sellerbutton)
+:global(.vtex-rich-text-0-x-link){
+  text-decoration: none;
+  color: black;
+  padding: 11px 1.5rem; 
+  border: 2px solid #000000;
+  background-color: transparent;
+  border-radius: 0px;
+  font-weight: 300;
+  display: block;
+}
+
+.flexColChild--right-col
+:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart)
+:global(.vtex-button)
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  font-size: 0;
+}
+.flexColChild--right-col
+:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart)
+:global(.vtex-button)
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer)::after{
+  content: 'Agregar al carro';
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.flexColChild--right-col .flexRowContent--vermas{
+  padding-left: 50px;
+  padding-right: 70px;
+}
+
+.flexColChild--right-col .flexRowContent--vermas .flexColChild{
+  align-self: center;
+}
+
+.flexColChild--right-col .flexRowContent--vermas .stretchChildrenWidth{
+  padding: 0 30px;
+}
+.flexColChild--right-col .flexRowContent--vermas .stretchChildrenWidth:nth-child(even){
+  border-left: 1px solid rgb(235, 235, 235);
+}
+
+.flexColChild--right-col
+.flexRowContent--vermas
+.stretchChildrenWidth
+:global(.vtex-rich-text-0-x-paragraph--deals){
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: .7rem;
+}
+
+.flexColChild--right-col
+.flexRowContent--vermas
+.stretchChildrenWidth
+:global(.vtex-rich-text-0-x-paragraph--deals)
+:global(.vtex-button){
+  text-decoration: none;
+  margin-top: 5px;
+  display: block;
+  color: rgb(119, 119, 119);
+}
+
+.flexColChild--right-col
+.flexRowContent--vermas
+.stretchChildrenWidth
+:global(.vtex-rich-text-0-x-paragraph--deals)
+:global(.vtex-button):hover{
+  color: black;
+}
+
+:global(.vtex-search-result-3-x-galleryItem--normal)
+.flexRowContent--precios-shelf
+.stretchChildrenWidth{
+  width: 50% !important;
+}
+
+:global(.vtex-search-result-3-x-galleryItem--normal)
+.flexRowContent--precios-shelf
+.stretchChildrenWidth
+:global(.vtex-product-price-1-x-listPriceValue)
+:global(.vtex-product-price-1-x-currencyContainer){
+  font-size: 1.1rem;
+  margin-top: 3px; 
+  display: block;
+}
+
+/* m o b i l e  h e a d e r */
+.flexRow--main-header-mobile{
+  background: red;
+}

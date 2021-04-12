@@ -1,0 +1,794 @@
+{
+    "menu-item#vestuario": {
+        "props": {
+          "id": "menu-item-vestuario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario",
+            "noFollow": true,
+            "tagTitle": "VESTUARIO",
+            "text": "VESTUARIO"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#vestuario"
+        ]
+      },
+      "vtex.menu@2.x:submenu#vestuario": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-vestuario"
+        ]
+      },
+      "flex-layout.row#menu-vestuario": {
+        "children": [
+          "flex-layout.col#menu-vestuario-1",
+          "flex-layout.col#menu-vestuario-2",
+          "flex-layout.col#menu-vestuario-3",
+          "flex-layout.col#menu-vestuario-4",
+          "flex-layout.col#menu-vestuario-5"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-1": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-2": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario2"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-3": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario3"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-4": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario4"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-5": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario5"
+        ]
+      },
+      "vtex.menu@2.x:menu#vestuario": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#trajedebano",
+          "menu-item#bikini",
+          "menu-item#tankini",
+          "menu-item#trikini",
+          "menu-item#faldon",
+          "menu-item#trajebano",
+          "menu-item#casacasyparkas",
+          "menu-item#casacayparka",
+          "menu-item#impermeable"
+        ]
+      },
+      "menu-item#trajedebano": {
+        "props": {
+          "id": "menu-item-trajedebano-titulo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Traje-de-Baño",
+            "noFollow": true,
+            "tagTitle": "TRAJE DE BA˜˜NO",
+            "text": "TRAJE DE BAÑO"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#bikini": {
+        "props": {
+          "id": "menu-item-bikini",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Traje-de-Baño/Bikini",
+            "noFollow": true,
+            "tagTitle": "Bikini",
+            "text": "Bikini"
+          }
+        }
+      },
+      "menu-item#tankini": {
+        "props": {
+          "id": "menu-item-tankini",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Traje-de-Baño/Tankini",
+            "noFollow": true,
+            "tagTitle": "Tankini",
+            "text": "Tankini"
+          }
+        }
+      },
+      "menu-item#trikini": {
+        "props": {
+          "id": "menu-item-trikini",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Traje-de-Baño/Trikini",
+            "noFollow": true,
+            "tagTitle": "Trikini",
+            "text": "Trikini"
+          }
+        }
+      },
+      "menu-item#faldon": {
+        "props": {
+          "id": "menu-item-faldon",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Traje-de-Baño/Faldon",
+            "noFollow": true,
+            "tagTitle": "Faldon",
+            "text": "Faldon"
+          }
+        }
+      },
+      "menu-item#trajebano": {
+        "props": {
+          "id": "menu-item-trajebano",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Traje-de-Baño/Traje-de-Baño",
+            "noFollow": true,
+            "tagTitle": "Traje de baño",
+            "text": "Traje de baño"
+          }
+        }
+      },
+      "menu-item#casacasyparkas": {
+        "props": {
+          "id": "menu-item-casacasyparkas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Casacas-y-Parkas",
+            "noFollow": true,
+            "tagTitle": "Casacas",
+            "text": "CASACAS Y PARKAS"
+          },
+          "blockClass":"titulo-item-menu"
+        }
+      },
+      "menu-item#casacayparka": {
+        "props": {
+          "id": "menu-item-casacayparka",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Casacas-y-Parkas/Casaca-y-Parka",
+            "noFollow": true,
+            "tagTitle": "Casaca",
+            "text": "Casaca y Parka"
+          }
+        }
+      },
+      "menu-item#impermeable": {
+        "props": {
+          "id": "menu-item-impermeable",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Casacas-y-Parkas/Impermeable",
+            "noFollow": true,
+            "tagTitle": "Impermeable",
+            "text": "Impermeable"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#vestidosyconjuntos",
+          "menu-item#conjuntoconvestido",
+          "menu-item#conjuntoconpantalon",
+          "menu-item#conjuntosdefalda",
+          "menu-item#enterito",
+          "menu-item#vestidos"          
+        ]
+      },
+      "menu-item#vestidosyconjuntos": {
+        "props": {
+          "id": "menu-item-vestidosyconjuntos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Vestidos-y-conjuntos",
+            "noFollow": true,
+            "tagTitle": "VESTIDOS Y CONJUNTOS",
+            "text": "VESTIDOS Y CONJUNTOS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#conjuntoconvestido": {
+        "props": {
+          "id": "menu-item-conjuntoconvestido",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Vestidos-y-conjuntos/Conjunto-con-vestido",
+            "noFollow": true,
+            "tagTitle": "Conjunto con Vestido",
+            "text": "Conjunto con Vestido"
+          }
+        }
+      },
+      "menu-item#conjuntoconpantalon": {
+        "props": {
+          "id": "menu-item-conjuntoconpantalon",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Vestidos-y-conjuntos/Conjunto-con-pantalon",
+            "noFollow": true,
+            "tagTitle": "Conjunto con Pantalón",
+            "text": "Conjunto con Pantalón"
+          }
+        }
+      },
+      "menu-item#conjuntosdefalda": {
+        "props": {
+          "id": "menu-item-conjuntosdefalda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Vestidos-y-conjuntos/Conjuntos-de-falda",
+            "noFollow": true,
+            "tagTitle": "Conjuntos de Falda",
+            "text": "Conjuntos de Falda"
+          }
+        }
+      },
+      "menu-item#enterito": {
+        "props": {
+          "id": "menu-item-enterito",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Vestidos-y-conjuntos/Enterito",
+            "noFollow": true,
+            "tagTitle": "Enterito",
+            "text": "Enterito"
+          }
+        }
+      },
+      "menu-item#vestidos": {
+        "props": {
+          "id": "menu-item-vestidos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Vestidos-y-conjuntos/Vestidos",
+            "noFollow": true,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#blusasypoleras",
+          "menu-item#blusa",
+          "menu-item#bluson",
+          "menu-item#peto",
+          "menu-item#tunica",
+          "menu-item#polera",
+          "menu-item#abrigosychaquetones",
+          "menu-item#abrigo",
+          "menu-item#chaqueton"
+        ]
+      },
+      "menu-item#blusasypoleras": {
+        "props": {
+          "id": "menu-item-blusasypoleras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Blusas-y-poleras",
+            "noFollow": true,
+            "tagTitle": "BLUSAS Y POLERAS",
+            "text": "BLUSAS Y POLERAS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#blusa": {
+        "props": {
+          "id": "menu-item-blusa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Blusas-y-poleras/Blusa",
+            "noFollow": true,
+            "tagTitle": "Blusa",
+            "text": "Blusa"
+          }
+        }
+      },
+      "menu-item#bluson": {
+        "props": {
+          "id": "menu-item-bluson",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Blusas-y-poleras/Bluson",
+            "noFollow": true,
+            "tagTitle": "Blusón",
+            "text": "Blusón"
+          }
+        }
+      },
+      "menu-item#peto": {
+        "props": {
+          "id": "menu-item-peto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Blusas-y-poleras/Blusa",
+            "noFollow": true,
+            "tagTitle": "Peto",
+            "text": "Peto"
+          }
+        }
+      },
+      "menu-item#tunica": {
+        "props": {
+          "id": "menu-item-tunica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Blusas-y-poleras/Tunica-y-Tapado",
+            "noFollow": true,
+            "tagTitle": "Túnica",
+            "text": "Túnica/Tapado"
+          }
+        }
+      },
+      "menu-item#polera": {
+        "props": {
+          "id": "menu-item-polera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Blusas-y-poleras/Polera",
+            "noFollow": true,
+            "tagTitle": "Polera",
+            "text": "Polera"
+          }
+        }
+      },
+      "menu-item#abrigosychaquetones": {
+        "props": {
+          "id": "menu-item-abrigosychaquetones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Abrigos-y-chaquetones",
+            "noFollow": true,
+            "tagTitle": "ABRIGOS Y CHAQUETONES",
+            "text": "ABRIGOS Y CHAQUETONES"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#abrigo": {
+        "props": {
+          "id": "menu-item-abrigo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Abrigos-y-chaquetones/Abrigo",
+            "noFollow": true,
+            "tagTitle": "Abrigo",
+            "text": "Abrigo"
+          }
+        }
+      },
+      "menu-item#chaqueton": {
+        "props": {
+          "id": "menu-item-chaqueton",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Abrigos-y-chaquetones/Chaqueton",
+            "noFollow": true,
+            "tagTitle": "Chaquetón",
+            "text": "Chaquetón"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario4": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#sweaterychaleco",
+          "menu-item#sweater",
+          "menu-item#chaleco",
+          "menu-item#twin",
+          "menu-item#conjunto",
+          "menu-item#chaquetayblazer",
+          "menu-item#blazer",
+          "menu-item#bolero",
+          "menu-item#chaqueta",
+          "menu-item#trench"
+        ]
+      },
+      "menu-item#sweaterychaleco": {
+        "props": {
+          "id": "menu-item-sweaterychaleco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "SWEATER Y CHALECO",
+            "text": "SWEATER Y CHALECO"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#sweater": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Sweater",
+            "text": "Sweater"
+          }
+        }
+      },
+      "menu-item#chaleco": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Chaleco",
+            "text": "Chaleco"
+          }
+        }
+      },
+      "menu-item#twin": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Twin Set",
+            "text": "Twin Set"
+          }
+        }
+      },
+      "menu-item#conjunto": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Conjunto",
+            "text": "Conjunto"
+          }
+        }
+      },
+      "menu-item#chaquetayblazer": {
+        "props": {
+          "id": "menu-item-chaquetayblazer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Chaqueta-y-Blazer",
+            "noFollow": true,
+            "tagTitle": "CHAQUETA Y BLAZER",
+            "text": "CHAQUETA Y BLAZER"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#blazer": {
+        "props": {
+          "id": "menu-item-blazer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Chaqueta-y-Blazer/Blazer",
+            "noFollow": true,
+            "tagTitle": "Blazer",
+            "text": "Blazer"
+          }
+        }
+      },
+      "menu-item#bolero": {
+        "props": {
+          "id": "menu-item-bolero",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Chaqueta-y-Blazer/Bolero",
+            "noFollow": true,
+            "tagTitle": "Bolero",
+            "text": "Bolero"
+          }
+        }
+      },
+      "menu-item#chaqueta": {
+        "props": {
+          "id": "menu-item-chaqueta",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Chaqueta-y-Blazer/Chaqueta",
+            "noFollow": true,
+            "tagTitle": "Chaqueta",
+            "text": "Chaqueta"
+          }
+        }
+      },
+      "menu-item#trench": {
+        "props": {
+          "id": "menu-item-trench",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Chaqueta-y-Blazer/Trench",
+            "noFollow": true,
+            "tagTitle": "Trench",
+            "text": "Trench"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario5": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#faldasypantalones",
+          "menu-item#bermuda",
+          "menu-item#calza",
+          "menu-item#capri",
+          "menu-item#falda",
+          "menu-item#largo",
+          "menu-item#pescador",
+          "menu-item#pirata",
+          "menu-item#short"
+        ]
+      },
+      "menu-item#faldasypantalones": {
+        "props": {
+          "id": "menu-item-faldasypantalones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Faldas-y-Pantalones",
+            "noFollow": true,
+            "tagTitle": "FALDAS Y PANTALONES",
+            "text": "FALDAS Y PANTALONES"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#bermuda": {
+        "props": {
+          "id": "menu-item-bermuda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Faldas-y-Pantalones/Bermuda",
+            "noFollow": true,
+            "tagTitle": "Bermuda",
+            "text": "Bermuda"
+          }
+        }
+      },
+      "menu-item#calza": {
+        "props": {
+          "id": "menu-item-calza",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Faldas-y-Pantalones/Calza",
+            "noFollow": true,
+            "tagTitle": "Calza",
+            "text": "Calza"
+          }
+        }
+      },
+      "menu-item#capri": {
+        "props": {
+          "id": "menu-item-capri",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Faldas-y-Pantalones/Capri",
+            "noFollow": true,
+            "tagTitle": "Capri",
+            "text": "Capri"
+          }
+        }
+      },
+      "menu-item#falda": {
+        "props": {
+          "id": "menu-item-falda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Faldas-y-Pantalones/Falda",
+            "noFollow": true,
+            "tagTitle": "Falda",
+            "text": "Falda"
+          }
+        }
+      },
+      "menu-item#largo": {
+        "props": {
+          "id": "menu-item-largo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Vestuario/Faldas-y-Pantalones/Largo",
+            "noFollow": true,
+            "tagTitle": "Largo",
+            "text": "Largo"
+          }
+        }
+      },
+      "menu-item#pescador": {
+        "props": {
+            "id": "menu-item-pescador",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/Vestuario/Faldas-y-Pantalones/Pescador",
+              "noFollow": true,
+              "tagTitle": "Pescador",
+              "text": "Pescador"
+          }
+        }
+      },
+      "menu-item#pirata": {
+        "props": {
+            "id": "menu-item-pirata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/Vestuario/Faldas-y-Pantalones/Pirata",
+              "noFollow": true,
+              "tagTitle": "Pirata",
+              "text": "Pirata"
+          }
+        }
+      },
+      "menu-item#short": {
+        "props": {
+            "id": "menu-item-short",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/Vestuario/Faldas-y-Pantalones/Short",
+              "noFollow": true,
+              "tagTitle": "Short",
+              "text": "Short"
+          }
+        }
+      }
+      
+}
