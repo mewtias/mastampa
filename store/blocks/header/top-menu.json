@@ -85,7 +85,7 @@
     "props": {
       "optionsTitle": "Iniciar Sesión",
       "iconLabel": "PERSONAL CLICK",
-      "blockClass": "personal-click-button"
+      "blockClass": "personal-click-button" 
     }
   }
   

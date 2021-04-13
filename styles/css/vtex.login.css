@@ -14,3 +14,27 @@
 .profileIcon{
     color: white;
 }
+.content--emailVerification
+.options
+.formTitle{
+    font-family: 'Roboto', sans-serif;
+}
+
+.content--emailVerification
+.optionsList
+.optionsListItem
+:global(.vtex-button__label){
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    text-decoration: none;
+    color:black;
+}
+
+.content--emailVerification
+.optionsList
+.optionsListItem
+:global(.vtex-button){
+    padding: 5px 2rem; 
+    border: 2px solid #CF478A;
+    border-radius: 0px;
+}
