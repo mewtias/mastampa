@@ -284,6 +284,32 @@
 }
 
 /* m o b i l e  h e a d e r */
-.flexRow--main-header-mobile{
-  background: red;
+:global(.vtex-sticky-layout-0-x-container)
+.flexRowContent--main-header-mobile{
+  background-color: #5B1C39 !important;
+}
+.flexRowContent--main-header-mobile{
+  background-color: #5B1C39;
+}
+.flexRowContent--main-header-mobile
+:global(.vtex-store-drawer-0-x-menuIcon){
+  color: white;
+  width: 2rem;
+}
+@media(max-width: 990px){
+  :global(.vtex-store-components-3-x-productBrand--quickview){
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  :global(.vtex-product-identifier-0-x-product-identifier--productReference){
+    font-size: .45rem;
+  }
+  :global(.vtex-product-price-1-x-sellingPriceValue){
+    font-size: 1rem !important;
+  }
+  :global(.vtex-store-components-3-x-skuSelectorItem)
+  :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+    font-size: .8rem;
+    padding: 0 10px;
+  }
 }
