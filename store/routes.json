@@ -2,6 +2,9 @@
   "store.custom#about-us": {
     "path": "/about-us"
   },
+  "store.custom#terms": {
+    "path": "/terms"
+  },
   "store.custom#faq": {
     "path": "/faq"
   },

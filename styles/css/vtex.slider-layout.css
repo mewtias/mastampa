@@ -115,10 +115,11 @@
 .slideChildrenContainer--shelf :global(.vtex-button){
   display: none;
 }
-
-.sliderLayoutContainer--shelf{
-  padding-left: 100px !important;
-  padding-right: 100px !important;
+@media(min-wdith: 991px){
+  .sliderLayoutContainer--shelf{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--categorias-col)

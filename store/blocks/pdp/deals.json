@@ -6,7 +6,8 @@
       ],
       "props": {
         "blockClass": "vermas",
-        "marginBottom": 8
+        "marginBottom": 8,
+        "preserveLayoutOnMobile": true
       }
     },
   

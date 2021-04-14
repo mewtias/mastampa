@@ -17,7 +17,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/about-us",
         "noFollow": false,
         "tagTitle": "Quienes Somos",
         "text": "Quienes Somos"
@@ -73,7 +73,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terms",
         "noFollow": true,
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"

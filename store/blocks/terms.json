@@ -1,0 +1,47 @@
+{
+  "store.custom#terms": {
+    "blocks": [
+      "flex-layout.row#terms",
+      "newsletter"
+    ]
+  },
+
+  "flex-layout.row#terms": {
+    "children": [
+      "image#mobile-phone",
+      "flex-layout.col#text-terms"
+    ]
+  },
+
+  "flex-layout.col#text-terms": {
+    "children": ["rich-text#title-terms", "rich-text#terms"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-terms": {
+    "props": {
+      "text":
+      "### TÉRMINOS Y CONDICIONES",
+      "blockClass": "title"
+    }
+  },
+
+  "image#mobile-phone": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "rich-text#terms": {
+    "props": {
+      "marginTop": 8,
+      "text": "**GENERAL**\nEl sitio web www.mastampa.cl es propiedad de Fernández y Cía. Ltda. Agradecemos el interés que tiene en nuestros productos y servicios. Las siguientes condiciones establecen las reglas básicas que rigen el uso por su parte de nuestro Sitio.\nEl uso por su parte de nuestro Sitio significa que usted acuerda cumplir con las siguientes condiciones de uso. Fernández y Cía. Ltda. puede cambiar las reglas que rigen el uso por su parte de nuestro Sitio, y el uso por su parte de nuestro Sitio después de tales cambios significa que usted acepta seguir las reglas que se han modificado. Además de los cambios en las reglas, Fernández y Cía. Ltda. puede cambiar, modificar, eliminar o revisar secciones de nuestro Sitio en cualquier momento sin previo aviso.\nNo es requisito para acceder al sitio de Fernández y Cía. Ltda. el ingreso de datos personales, sin perjuicio de que para recibir información y acceder a los bienes y servicios publicitados a través del sitio sí es necesario ingresar tales datos.\n\n**CONTENIDO DEL SITIO**\nTodo el material que se muestra en el Sitio, tales como el texto, imágenes, gráficos, archivos de video, etc., están sujetos a protección de derechos de autor o a otros tipos de protección intelectual. Estos no pueden copiarse, modificarse o alterarse de alguna manera. Tampoco se pueden usar para un uso comercial o para otro sitio web.\nFernández y Cía. Ltda. puede modificar el contenido del sitio cuando lo estime necesario, sin previo aviso y sin necesidad de informarlo previa o posteriormente.\n\n**ENLACES A OTROS SITIOS WEB**\nFernández y Cía. Ltda. no se hace responsable en ningún caso del contenido que puedan tener otros sitios web conectados a la página de Fernández y Cía. Ltda. a través de enlaces. Al acceder a estos enlaces, se reconoce que usted sabe que accede a un sitio distinto al de Fernández y Cía. Ltda. Estos enlaces existen solo para entregarle al usuario mayor comodidad de navegación.\n\n**MARCAS COMERCIALES**\nFernández y Cía. Ltda. tiene la distribución única y exclusiva de marcas que se muestran y exhiben en su sitio web. Estas marcas están protegidas bajo contratos y no pueden ser usadas para fines comerciales. Entre ellas se encuentran Punt Roma, Bagoraz, Kalisson, etc. Dicho listado no es taxativo por lo que aquellas marcas que no se mencionen igualmente están bajo la exclusividad de Fernández y Cía. Ltda. siempre que se muestren y exhiban sus productos en el sitio web de Fernández y Cía. Ltda.\n\n**VENTA ASISTIDA**\nEn el caso de las compras asistidas, el usuario reconoce que los productos comprados fueron aprobados por el, eximiendo de toda responsabilidad al asistente. El asistente no representa a Fernández y Cía. Ltda. y este no le puede endosar la responsabilidad de sus acciones a la empresa. El usuario reconoce que, al ingresar sus credenciales y formas de pago, está aceptando lo convenido con el asistente.\n\n**DESCARGO DE RESPONSABILIDAD E INDEMNIZACIÓN**\nFernández y cía. Ltda. no garantiza que el uso por su parte de nuestro sitio, o la operación o funcionamiento de nuestro sitio, cualquier componente de éste, o cualquier servicio ofrecido en conexión con el sitio, estará libre de interrupciones o errores; que los defectos en el sitio serán corregidos; o que nuestro sitio o servidor no tiene virus u otros elementos perjudiciales. Aunque Fernández y Cía. Ltda. se esfuerza por proporcionar información actual, exacta y confiable en el sitio, no garantiza ni hace ninguna declaración respecto a la exactitud, fiabilidad o cualquier uso de información en nuestro sitio.\nUsted reconoce al utilizar nuestro sitio que: (1) la utilización por su parte de nuestro sitio queda bajo su exclusiva responsabilidad; (2) usted asume responsabilidad total por todos los costos asociados con el mantenimiento o las reparaciones necesarias de cualquier equipo que usted use en relación con el uso por su parte de nuestro sitio; y (3) que Fernández y Cía. Ltda. no se responsabilizará de cualquier daño relacionado con el uso o la imposibilidad de uso por su parte de nuestro sitio, incluso entre otros, daños directos, indirectos, especiales, compensatorios o resultantes, lucro cesante y/o pérdida o daño a la propiedad, incluso si se le ha notificado a Fernández y Cía. Ltda. sobre la posibilidad de tales daños. Usted acepta mantener indemne y eximir de responsabilidad a Fernández y Cía. Ltda. de todo reclamo, daño, costos y gasto, incluso los honorarios para abogados, provenientes de la utilización de nuestro sitio o relacionados con ella.\n\n**DESPACHO DE LOS PRODUCTOS**\nLos productos adquiridos a través del Sitio web se sujetarán a las condiciones de despacho y entrega elegidas por el Usuario y disponibles en el Sitio. Cuando existan productos almacenados en diferentes lugares, éstos serán consolidados y despachados, de acuerdo a las alternativas disponibles en el Sitio web y escogidas por el Usuario. La información del lugar de envío es de exclusiva responsabilidad del Usuario. Los plazos elegidos para el despacho y entrega, se cuentan desde que la Empresa Oferente haya validado la orden de compra y el medio de pago utilizado. No se realizarán despachos a casillas de correos.\n\n**PROTECCIÓN AL USUARIO**\nFernández y Cía. Ltda. es una persona jurídica constituida de acuerdo a la legislación de Chile. Fernández y Cía. Ltda. protege la información entregada por sus usuarios y no la hará pública salvo en aquellos casos en que el usuario acceda a algunas de las ofertas publicitadas por el Sitio, en cuyo caso Fernández y Cía. Ltda. podrá entregar la información necesaria al proveedor para que este pueda prestar el servicio o entregar el bien al usuario. Lo anterior, se refiere entre otros proveedores, a empresas de logística que puedan facilitar la entrega de productos que el usuario requiera y que Fernández tiene contrato de servicios de entrega con ellas.\nEl uso que se le dará a la información que los clientes ingresen en el sitio web será solo usada por Fernández y Cía. Ltda., y por quienes se determine pertinente compartirla para entregar un mejor servicio.\nPara proteger sus datos. El sitio cuenta con el certificado de seguridad SSL garantizando a los visitantes que no están en un sitio falso. Usa el protocolo HTTPS que valida la seguridad de la ruta de navegación. Además, las transacciones, cuentan con el estándar PCI (Payment Card Industry Data Security Standard), que es el estándar obligatorio para los sitios que manipulan información de tarjetas de débito/crédito.",
+      "blockClass": "about"
+    }
+  }
+}
