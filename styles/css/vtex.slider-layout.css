@@ -115,10 +115,23 @@
 .slideChildrenContainer--shelf :global(.vtex-button){
   display: none;
 }
-@media(min-wdith: 991px){
+@media(min-width: 991px){
   .sliderLayoutContainer--shelf{
     padding-left: 100px !important;
     padding-right: 100px !important;
+  }
+}
+
+@media(max-width: 990px){
+  .sliderLayoutContainer--shelf{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .sliderArrows--shelf{
+    display: none;
+  }
+  .slide--shelf{
+    padding: 4px;
   }
 }
 
@@ -130,4 +143,23 @@
 
 .paginationDotsContainer--shelf{
   display: none;
+}
+
+.sliderArrows--carousel{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  padding: 10px 2px;
+  color: white;
+  margin: 0px !important;
+}
+.sliderArrows--carousel:hover{
+  background-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.sliderArrows--shelf{
+  background-color: rgba(39, 39, 39, 0.5) !important;
+  padding: 10px 2px;
+  color: white;
+}
+.sliderArrows--shelf:hover{
+  background-color: rgba(39, 39, 39, 0.75) !important;
 }

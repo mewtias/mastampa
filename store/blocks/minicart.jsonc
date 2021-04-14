@@ -8,8 +8,15 @@
 
   "minicart.v2": {
     "props": {
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button",
+      "MinicartIcon": "icon-cart#minicart-icon"
     },
     "children": ["minicart-base-content"]
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "id": "mpa-bag",
+      "size": 18
+    }
   }
 }

@@ -152,7 +152,8 @@
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "newsletter"
     ],
     "props": {
       "pagination": "show-more",

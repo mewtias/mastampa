@@ -45,7 +45,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-link)
-.menuContainer
+.menuContainer--left
 :global(.vtex-login-2-x-container)
 :global(.vtex-button__label){
     padding-left: 5px !important;

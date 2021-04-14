@@ -27,3 +27,20 @@
 .footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer-desktop){
   margin: 0px 20rem;
 }
+
+.footerLayout--footer-mobile
+:global(.vtex-menu-2-x-menuContainer){
+  margin-top: 1.5rem;
+}
+
+.footerLayout--footer-mobile
+:global(.vtex-menu-2-x-styledLinkContent){
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+.footerLayout--footer-mobile
+:global(.vtex-menu-2-x-styledLinkContainer){
+  border-top: 1px solid gray;
+  
+}

@@ -27,8 +27,16 @@
   margin: 0 auto;
 }
 
-.newsletter .container {
-  padding: 60px 10px;
+@media(min-width: 991px){
+  .newsletter .container {
+    padding: 60px 10px;
+  }
+}
+
+@media(max-width: 990px){
+  .newsletter .container {
+    padding: 20px 10px;
+  }
 }
 
 .newsletter .form .label{
@@ -255,4 +263,63 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px 0px;
   margin: 0 30px;
+}
+
+:global(.vtex-modal-layout-0-x-paper--quickview)
+.productImagesContainer--quickview
+.productImageTag--quickview
+{
+  object-fit: contain !important;
+}
+:global(.vtex-modal-layout-0-x-paper--quickview)
+.productImagesContainer--quickview
+.swiperBullet--active{
+  background: #CF478A;
+}
+
+:global(.vtex-modal-layout-0-x-paper--quickview)
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  justify-content: center;
+}
+:global(.vtex-modal-layout-0-x-paper--quickview)
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-product-price-1-x-installments){
+  text-align: center;
+  display: block;
+  font-size: .8rem;
+}
+:global(.vtex-modal-layout-0-x-paper--quickview)
+:global(.vtex-flex-layout-0-x-flexRowContent--addToCartRow)
+:global(.vtex-button){
+  background: #CF478A;
+  border-color: #CF478A;
+}
+:global(.vtex-modal-layout-0-x-paper--quickview)
+:global(.vtex-flex-layout-0-x-flexRowContent--addToCartRow)
+:global(.vtex-button)
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  font-family: 'Roboto', sans-serif;
+}
+:global(.vtex-modal-layout-0-x-paper--quickview)
+:global(.vtex-store-link-0-x-buttonLink)
+:global(.vtex-store-link-0-x-label)::before{
+  content: 'VER PRODUCTO';
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+:global(.vtex-modal-layout-0-x-paper--quickview)
+:global(.vtex-store-link-0-x-buttonLink)
+:global(.vtex-store-link-0-x-label){
+  font-size: 0px;
+}
+
+@media(max-width: 990px){
+  .productImageTag--main{
+    object-fit: none !important;
+    max-height: none !important;
+    width: revert !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--product-page){
+    margin-top: 2rem;
+  }
 }

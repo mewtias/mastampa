@@ -46,8 +46,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "mailto:hola@mastampa.cl",
         "noFollow": false,
         "tagTitle": "Contacto",
         "text": "Contacto"
@@ -168,6 +168,69 @@
         "noFollow": true,
         "tagTitle": "Mi cuenta",
         "text": "Mi cuenta"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienessomos-mobile",
+      "menu-item#terminos-mobile",
+      "menu-item#contacto-mobile",
+      "menu-item#faq-mobile"
+    ]
+  },
+
+  "menu-item#quienessomos-mobile": {
+    "props": {
+      "id": "menu-item-quienessomos-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "QUIÉNES SOMOS",
+        "text": "Quiénes Somos"
+      }
+    }
+  },
+
+  "menu-item#terminos-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms",
+        "noFollow": true,
+        "tagTitle": "TÉRMINOS",
+        "text": "Términos"
+      }
+    }
+  },
+
+  "menu-item#contacto-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "external",
+        "href": "mailto:hola@mastampa.cl",
+        "noFollow": true,
+        "tagTitle": "CONTACTO",
+        "text": "Contacto"
+      }
+    }
+  },
+
+  "menu-item#faq-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "PREGUNTAS FRECUENTES",
+        "text": "FAQ"
       }
     }
   }

@@ -269,12 +269,12 @@
       "width": 1193,
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b1.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b1.jpg"
+          "image": "https://mastampa.vteximg.com.br/arquivos/b6.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b6.jpg"
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b2.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b2.jpg"
+          "image": "https://mastampa.vteximg.com.br/arquivos/b1.jpg",
+          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b1.jpg"
         },
         {
           "image": "https://mastampa.vteximg.com.br/arquivos/b4.jpg",
@@ -283,12 +283,7 @@
         {
           "image": "https://mastampa.vteximg.com.br/arquivos/b5.jpg",
           "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b5.jpg"
-        },
-        {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b6.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b6.jpg"
         }
-
       ]
     }
   },
@@ -301,7 +296,8 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel",
+      "pauseOnHover": true
     }
   },
 

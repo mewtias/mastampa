@@ -5,7 +5,10 @@
       "menu-item#mispedidos",
       "menu-item#seguimiento",
       "login#personalclick"
-    ]
+    ],
+    "props":{
+      "blockClass": "left"
+    }
   },
   "menu-item#micuenta": {
     "props": {
@@ -15,7 +18,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account",
         "noFollow": false,
         "tagTitle": "MI CUENTA",
         "text": "MI CUENTA"
@@ -72,7 +75,10 @@
       "search-bar",
       "minicart.v2",
       "login"
-    ]
+    ],
+    "props":{
+      "blockClass": "right"
+    }
   },
   "login": {
     "props": {
