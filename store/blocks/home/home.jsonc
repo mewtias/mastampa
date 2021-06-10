@@ -39,7 +39,10 @@
         {
           "image": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
           "mobileImage": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
-          "width": "95%"
+          "width": "95%",
+          "link": {
+            "url": "/Accesorio/Bolsos-y-Carteras/Cartera"
+          }
         }
       ]
     }
@@ -78,7 +81,10 @@
         {
           "image": "https://mastampa.vteximg.com.br/arquivos/sweater.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/sweater.jpg",
-          "width": "95%"
+          "width": "95%",
+          "link": {
+            "url": "/Vestuario/Sweater-Y-Chaleco/Sweater"
+          }
         }
       ]
     }
@@ -117,7 +123,10 @@
         {
           "image": "https://mastampa.vteximg.com.br/arquivos/casacasyparkas_Mesa%20de%20trabajo%201.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/casacasyparkas_Mesa%20de%20trabajo%201.jpg",
-          "width": "95%"
+          "width": "95%",
+          "link": {
+            "url": "/Vestuario/Casacas-y-Parkas/Casaca-y-Parka"
+          }
         }
       ]
     }
@@ -156,7 +165,10 @@
         {
           "image": "https://mastampa.vteximg.com.br/arquivos/pantalones2_Mesa%20de%20trabajo%201.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/pantalones2_Mesa%20de%20trabajo%201.jpg",
-          "width": "95%"
+          "width": "95%",
+          "link": {
+            "url": "/Vestuario/Faldas-y-Pantalones/Largo"
+          }
         }
       ]
     }
@@ -193,9 +205,12 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/blusas2.jpg",
-          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/blusas2.jpg",
-          "width": "95%"
+          "image": "https://mastampa.vteximg.com.br/arquivos/C1.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/C1.jpg",
+          "width": "95%",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Blusa"
+          }
         }
       ]
     }
@@ -233,7 +248,7 @@
   "rich-text#categorias-title": {
     "props": {
       "text": "##### CATEGORÍAS MÁS BUSCADAS",
-      "blockClass": "shelfTitle"
+      "blockClass": "shelfTitle--categorias"
     }
   },
   "list-context.image-list#imagen2": {
@@ -242,8 +257,11 @@
       "height": "100%",
       "images": [
         {
-          "image": "https://mastampa.vtexassets.com/arquivos/banner_baw.jpg",
-          "mobileImage": "https://mastampa.vtexassets.com/arquivos/banner_baw.jpg"
+          "image": "https://mastampa.vtexassets.com/arquivos/b6poleras.jpg",
+          "mobileImage": "https://mastampa.vtexassets.com/arquivos/b6poleras.jpg",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Polera"
+          }
         }
       ]
     }
@@ -265,24 +283,42 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 529,
-      "width": 1193,
+      "height": 720,
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b6.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b6.jpg"
+          "image": "https://mastampa.vteximg.com.br/arquivos/b1chaquetas_parkas.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m3parkasychaquetas.jpg",
+          "link": {
+            "url": "/Vestuario/Casacas-y-Parkas"
+          }
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b1.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b1.jpg"
+          "image": "https://mastampa.vteximg.com.br/arquivos/b4camisas.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m4camisas.jpg",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Blusa"
+          }
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b4.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b4.jpg"
+          "image": "https://mastampa.vteximg.com.br/arquivos/b6poleras.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m2poleras.jpg",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Polera"
+          }
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b5.jpg",
-          "mobileImage": "https://mastapma.vteximg.com.br/arquivos/b5.jpg"
+          "image": "https://mastampa.vteximg.com.br/arquivos/b5kalisson.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m5kalisson.jpg",
+          "link": {
+            "url": "/kalisson?_q=kalisson&map=ft"
+          }
+        },
+        {
+          "image": "https://mastampa.vteximg.com.br/arquivos/b7pantalones.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m6pantalones.jpg",
+          "link": {
+            "url": "/Vestuario/Faldas-y-Pantalones/Largo"
+          }
         }
       ]
     }
@@ -294,10 +330,13 @@
         "tablet": 1,
         "phone": 1
       },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel",
-      "pauseOnHover": true
+      "blockClass": "carousel"
     }
   },
 
@@ -323,6 +362,10 @@
         "desktop": 4,
         "tablet": 3,
         "phone": 2
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
       },
       "infinite": true,
       "fullWidth": false,

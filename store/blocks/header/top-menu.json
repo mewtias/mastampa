@@ -3,8 +3,7 @@
     "children": [
       "menu-item#micuenta",
       "menu-item#mispedidos",
-      "menu-item#seguimiento",
-      "login#personalclick"
+      "menu-item#seguimiento"
     ],
     "props":{
       "blockClass": "left"
@@ -33,7 +32,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account#/orders",
         "noFollow": false,
         "tagTitle": "MIS PEDIDOS",
         "text": "MIS PEDIDOS"
@@ -73,8 +72,7 @@
   "vtex.menu@2.x:menu#institutional": {
     "children": [
       "search-bar",
-      "minicart.v2",
-      "login"
+      "minicart.v2"
     ],
     "props":{
       "blockClass": "right"
@@ -86,13 +84,6 @@
       "showIconProfile": "true",
       "hideIconLabel": "true"
     }
-  },
-  "login#personalclick": {
-    "props": {
-      "optionsTitle": "Iniciar Sesión",
-      "iconLabel": "PERSONAL CLICK",
-      "blockClass": "personal-click-button" 
-    }
-  }
+  } 
   
 }

@@ -18,7 +18,7 @@
     text-transform: capitalize;
     font-weight: 400 !important;
     font-size: .7rem !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     padding-bottom: 9px;
 }
 
@@ -27,27 +27,4 @@
     font-size: 1rem !important;
 }
 
-/* p e r s o n a l  c l i c k*/
 
-:global(.vtex-flex-layout-0-x-flexRow--menu-link)
-.menuContainer
-:global(.vtex-login-2-x-container)
-:global(.vtex-button):hover,
-:global(.vtex-flex-layout-0-x-flexRow--menu-link)
-.menuContainer
-:global(.vtex-login-2-x-container)
-:global(.vtex-button):active,
-:global(.vtex-flex-layout-0-x-flexRow--menu-link)
-.menuContainer
-:global(.vtex-login-2-x-container)
-:global(.vtex-button):focus{
-    background-color: inherit;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--menu-link)
-.menuContainer--left
-:global(.vtex-login-2-x-container)
-:global(.vtex-button__label){
-    padding-left: 5px !important;
-
-}

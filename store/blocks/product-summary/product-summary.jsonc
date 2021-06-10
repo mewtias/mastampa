@@ -2,11 +2,12 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "sku-selector",
       "product-summary-name",
       "flex-layout.row#precios",
       // "product-list-price",
       // "product-selling-price#summary",
-      // "product-price-savings",  
+      // "product-price-savings",
       "add-to-cart-button"
     ]
   },
@@ -16,7 +17,6 @@
     },
     "children": ["product-rating-inline"]
   },
-
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",

@@ -110,15 +110,187 @@
   "drawer": {
     "children": ["menu#drawer"]
   },
-
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#vestuario-mobile",
+      "menu-item#calzado-mobile",
+      "menu-item#accesorios-mobile",
+      "menu-item#nueva-mobile"
     ],
     "props": {
       "orientation": "vertical"
+    }
+  },
+
+  "menu-item#vestuario-mobile": {
+    "props": {
+      "id": "menu-item-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "VESTUARIO",
+        "text": "VESTUARIO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#vestuario-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu#vestuario-mobile": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-vestuario-mobile"
+    ]
+  },
+  "flex-layout.row#menu-vestuario-mobile": {
+    "children": [
+      "flex-layout.col#menu-vestuario-1-mobile"
+    ]
+  },
+  "flex-layout.col#menu-vestuario-1-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#vestuario-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#vestuario-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#trajedebano",
+      "menu-item#casacasyparkas",
+      "menu-item#vestidosyconjuntos",
+      "menu-item#blusasypoleras",
+      "menu-item#abrigosychaquetones",
+      "menu-item#sweaterychaleco",
+      "menu-item#chaquetayblazer",
+      "menu-item#faldasypantalones"
+    ]
+  },
+
+
+  "menu-item#accesorios-mobile": {
+    "props": {
+      "id": "menu-item-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ACCESORIOS",
+        "text": "ACCESORIOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#accesorios-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu#accesorios-mobile": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-accesorios-mobile"
+    ]
+  },
+  "flex-layout.row#menu-accesorios-mobile": {
+    "children": [
+      "flex-layout.col#menu-accesorios-1-mobile"
+    ]
+  },
+  "flex-layout.col#menu-accesorios-1-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#accesorios-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#accesorios-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bolsosycarteras",
+      "menu-item#monederosybilleteras",
+      "menu-item#playa",
+      "menu-item#joyeria",
+      "menu-item#complementos",
+      "menu-item#panuelosycapas"
+    ]
+  },
+
+  "menu-item#calzado-mobile": {
+    "props": {
+      "id": "menu-item-calzado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CALZADO",
+        "text": "CALZADO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#calzado-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu#calzado-mobile": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-calzado-mobile"
+    ]
+  },
+  "flex-layout.row#menu-calzado-mobile": {
+    "children": [
+      "flex-layout.col#menu-calzado-1-mobile"
+    ]
+  },
+  "flex-layout.col#menu-calzado-1-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#calzado-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#calzado-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+        "menu-item#ballerina",
+        "menu-item#bota",
+        "menu-item#botin",
+        "menu-item#mocasin",
+        "menu-item#sandalia",
+        "menu-item#zapatilla",
+        "menu-item#zapato",
+        "menu-item#zueco"
+    ]
+  },
+
+
+  "menu-item#nueva-mobile": {
+    "props": {
+      "id": "menu-item-nuevacoleccion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuevos-productos",
+        "noFollow": true,
+        "tagTitle": "NUEVA COLECCIÓN",
+        "text": "NUEVA COLECCIÓN"
+      }
     }
   },
 

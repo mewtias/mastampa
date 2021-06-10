@@ -77,13 +77,13 @@
   background-color: #e1388c!important;
   border: none;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .slideChildrenContainer--shelf  :global(.vtex-product-summary-2-x-productBrand){
   text-transform: uppercase;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: .85rem
 }
 
@@ -99,14 +99,14 @@
 .slideChildrenContainer--shelf :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer){
   color: black;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: .85rem;
   vertical-align: text-top;
 }
 .slideChildrenContainer--shelf :global(.vtex-product-price-1-x-currencyContainer--summary){
   color: #e1388c;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .slideChildrenContainer--shelf :global(.vtex-product-price-1-x-savings){
   display: none;
@@ -133,6 +133,82 @@
   .slide--shelf{
     padding: 4px;
   }
+}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--tallas),
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color)
+:global(.vtex-store-components-3-x-skuSelectorTextContainer),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--tallas),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color)
+:global(.vtex-store-components-3-x-skuSelectorTextContainer){
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorContainer),
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorContainer)
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorContainer),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorContainer)
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color){
+  margin-top: 0px;
+  margin-bottom: 0pc;
+}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorContainer)
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorContainer)
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color){
+  margin-top: -2.5rem;
+}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorItem--selected) 
+:global(.vtex-store-components-3-x-frameAround),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorItem--selected) 
+:global(.vtex-store-components-3-x-frameAround){
+  /* background-color: #CF478A; */
+  background-color: transparent;
+}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorInternalBox),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorInternalBox)
+{
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+}
+
+@media(max-width: 990px){
+  :global(.vtex-search-result-3-x-gallery)
+  :global(.vtex-store-components-3-x-skuSelectorInternalBox),
+  .slideChildrenContainer--shelf
+  :global(.vtex-store-components-3-x-skuSelectorInternalBox)
+  {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+:global(.vtex-search-result-3-x-gallery)
+:global(.vtex-store-components-3-x-skuSelectorOptionsList),
+.slideChildrenContainer--shelf
+:global(.vtex-store-components-3-x-skuSelectorOptionsList){
+  justify-content: left;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--categorias-col)

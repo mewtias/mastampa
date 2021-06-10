@@ -120,7 +120,7 @@
     "children": [
       "menu-item#mivendedora",
       "menu-item#mispedidos",
-      "menu-item#micuenta"
+      "login#personal-click"
     ]
   },
 
@@ -156,19 +156,12 @@
     }
   },
 
-  "menu-item#micuenta": {
+  "login#personal-click": {
     "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Mi cuenta",
-        "text": "Mi cuenta"
-      }
+      "optionsTitle": "Iniciar Sesión",
+      "iconLabel": "PERSONAL CLICK",
+      "blockClass": "personal-click-button",
+      "mirrorTooltipToRight": true
     }
   },
   "vtex.menu@2.x:menu#footer-mobile": {
@@ -179,7 +172,9 @@
       "menu-item#quienessomos-mobile",
       "menu-item#terminos-mobile",
       "menu-item#contacto-mobile",
-      "menu-item#faq-mobile"
+      "menu-item#faq-mobile",
+      "menu-item#account-mobile"
+      
     ]
   },
 
@@ -231,6 +226,18 @@
         "noFollow": true,
         "tagTitle": "PREGUNTAS FRECUENTES",
         "text": "FAQ"
+      }
+    }
+  },
+  
+  "menu-item#account-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": true,
+        "tagTitle": "MI CUENTA",
+        "text": "Mi Cuenta"
       }
     }
   }

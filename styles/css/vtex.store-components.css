@@ -44,7 +44,7 @@
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .newsletter .form .buttonContainer{
@@ -53,6 +53,7 @@
 
 .newsletter .form :global(.vtex-input-prefix__group){
   border-radius: 0px;
+  border: #CF478A;
 }
 
 .newsletter .form :global(.vtex-button){
@@ -63,11 +64,13 @@
   right: 0;
   margin-right: 0px;;
   font-weight: 100;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .newsletter .form :global(.vtex-button) :global(.vtex-button__label){
   padding-bottom: 0.25em !important;
+  color: white;
+  font-weight: 600;
 }
 
 .inputGroup {
@@ -78,8 +81,9 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
+  background-color: #CF478A;
   border: none;
+  border-radius: 0px;
 }
 
 .inputGroup
@@ -179,7 +183,7 @@
 }
 .productBrand--quickview{
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -195,7 +199,7 @@
   display: block;
   color: #9C9B9B;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 :global(.vtex-product-price-1-x-sellingPrice){
@@ -209,7 +213,7 @@
 :global(.vtex-product-price-1-x-sellingPriceValue){
   font-size: 1.3rem;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .skuSelectorTextContainer{
@@ -218,7 +222,7 @@
 
 .skuSelectorTextContainer .skuSelectorName{
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
 
@@ -234,7 +238,7 @@
 }
 
 .skuSelectorItem .skuSelectorItemTextValue{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 600;
 }
 
@@ -249,13 +253,13 @@
 .productDescriptionTitle{
   text-align: center;
   font-size: .9rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .productDescriptionText{
   text-align: center;
   font-size: .8rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .productImagesContainer--list{
@@ -298,14 +302,14 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--addToCartRow)
 :global(.vtex-button)
 :global(.vtex-add-to-cart-button-0-x-buttonText){
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 :global(.vtex-modal-layout-0-x-paper--quickview)
 :global(.vtex-store-link-0-x-buttonLink)
 :global(.vtex-store-link-0-x-label)::before{
   content: 'VER PRODUCTO';
   font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 :global(.vtex-modal-layout-0-x-paper--quickview)
 :global(.vtex-store-link-0-x-buttonLink)
@@ -319,7 +323,23 @@
     max-height: none !important;
     width: revert !important;
   }
-  :global(.vtex-flex-layout-0-x-flexRow--product-page){
-    margin-top: 2rem;
-  }
+}
+
+.subscriberContainer
+.title,
+.subscriberContainer
+.subscribeLabel{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.subscriberContainer
+.form
+.content
+:global(.vtex-styleguide-9-x-input){
+  font-family: 'Roboto Condensed';
+}
+.subscriberContainer
+.submit
+:global(.vtex-button__label){
+  font-family: 'Roboto Condensed', sans-serif;
 }

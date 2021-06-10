@@ -10,12 +10,25 @@
     background: #CF478A;
     border-radius: 0px;
     border: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+    font-size: 0rem;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before{
+    content: 'FINALIZAR COMPRA';
+    font-size: 1rem;
 }
 
 .minicartProductListContainer{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .minicartIconContainer{
     color: white;
+}
+
+.overlay--visible{
+    background: black;
 }

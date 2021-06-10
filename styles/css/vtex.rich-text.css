@@ -4,7 +4,8 @@
   justify-content: center;
 }
 
-.container--shelfTitle {
+.container--shelfTitle,
+.container--shelfTitle--categorias {
   color: black;
   justify-content: center;
   text-align: center;
@@ -104,14 +105,19 @@
   margin-bottom: .5rem;
   font-weight: 400;
   font-size: .9rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .heading--shelfTitle{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
 
 .container--shelfTitle{
   margin-top: 20px;
+}
+
+.headingLevel3--title{
+  color: #63173a;
+  font-family: 'Playfair Display', serif;
 }

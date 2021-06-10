@@ -1,0 +1,61 @@
+@media(max-width: 990px){
+  .overlay--visible{
+    background-color: black;
+  }
+
+  .childrenContainer{
+    justify-content: center;
+  }
+  
+  .childrenContainer
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer){
+    display: block;
+  }
+
+  .childrenContainer
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem){
+    border-bottom: 1px solid black;
+  }
+
+  .childrenContainer
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-styledLinkContent){
+    justify-content: center;
+    font-weight: bold;
+    padding: .5rem;
+  }
+
+  .childrenContainer
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen){
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    box-shadow: none;
+  }
+
+  .childrenContainer
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen)
+  :global(.vtex-menu-2-x-submenu){
+    display: block;
+  }
+
+  .childrenContainer
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-submenuWrapper--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContainer--titulo-item-menu){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}

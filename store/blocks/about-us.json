@@ -8,7 +8,7 @@
 
   "flex-layout.row#about-us": {
     "children": [
-      "image#mobile-phone",
+      "image#quienes-somos",
       "flex-layout.col#text-about-us"
     ]
   },
@@ -29,9 +29,9 @@
     }
   },
 
-  "image#mobile-phone": {
+  "image#quienes-somos": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "/arquivos/quienessomos-mastampa.jpg",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
