@@ -37,8 +37,8 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
-          "mobileImage": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
+          "image": "https://mastampa.vtexassets.com/arquivos/C1.jpg",
+          "mobileImage": "https://mastampa.vtexassets.com/arquivos/C1.jpg",
           "width": "95%",
           "link": {
             "url": "/Accesorio/Bolsos-y-Carteras/Cartera"
@@ -59,7 +59,7 @@
   },
   "rich-text#texto-categoria-01": {
     "props": {
-      "text": "##### CARTERAS",
+      "text": "##### BLUSAS Y POLERAS",
       "blockClass": "categoria-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -79,8 +79,8 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/sweater.jpg",
-          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/sweater.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/C2.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/C2.jpg",
           "width": "95%",
           "link": {
             "url": "/Vestuario/Sweater-Y-Chaleco/Sweater"
@@ -101,7 +101,7 @@
   },
   "rich-text#texto-categoria-02": {
     "props": {
-      "text": "##### SWEATERS",
+      "text": "##### BOLSOS Y CARTERAS",
       "blockClass": "categoria-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -121,8 +121,8 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/casacasyparkas_Mesa%20de%20trabajo%201.jpg",
-          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/casacasyparkas_Mesa%20de%20trabajo%201.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/C4.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/C4.jpg",
           "width": "95%",
           "link": {
             "url": "/Vestuario/Casacas-y-Parkas/Casaca-y-Parka"
@@ -143,7 +143,7 @@
   },
   "rich-text#texto-categoria-03": {
     "props": {
-      "text": "##### CASACAS",
+      "text": "##### SWEATERS Y CHALECOS",
       "blockClass": "categoria-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -163,8 +163,8 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/pantalones2_Mesa%20de%20trabajo%201.jpg",
-          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/pantalones2_Mesa%20de%20trabajo%201.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/C5.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/C5.jpg",
           "width": "95%",
           "link": {
             "url": "/Vestuario/Faldas-y-Pantalones/Largo"
@@ -185,7 +185,7 @@
   },
   "rich-text#texto-categoria-04": {
     "props": {
-      "text": "##### PANTALONES",
+      "text": "##### ABRIGOS Y CHAQUETAS",
       "blockClass": "categoria-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -205,8 +205,8 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/C1.jpg",
-          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/C1.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/C6.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/C6.jpg",
           "width": "95%",
           "link": {
             "url": "/Vestuario/Blusas-y-poleras/Blusa"
@@ -227,7 +227,7 @@
   },
   "rich-text#texto-categoria-05": {
     "props": {
-      "text": "#####  BLUSAS",
+      "text": "#####  PANTALONES Y FALDAS   ",
       "blockClass": "categoria-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -257,8 +257,8 @@
       "height": "100%",
       "images": [
         {
-          "image": "https://mastampa.vtexassets.com/arquivos/b6poleras.jpg",
-          "mobileImage": "https://mastampa.vtexassets.com/arquivos/b6poleras.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/b6poleras.jpg",
+          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m2poleras.jpg",
           "link": {
             "url": "/Vestuario/Blusas-y-poleras/Polera"
           }
@@ -286,38 +286,31 @@
       "height": 720,
       "images": [
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b1chaquetas_parkas.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/banner_1_aw.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m3parkasychaquetas.jpg",
           "link": {
             "url": "/Vestuario/Casacas-y-Parkas"
           }
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b4camisas.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/banner_2_aw.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m4camisas.jpg",
           "link": {
             "url": "/Vestuario/Blusas-y-poleras/Blusa"
           }
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b6poleras.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/banner_4_blusas.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m2poleras.jpg",
           "link": {
             "url": "/Vestuario/Blusas-y-poleras/Polera"
           }
         },
         {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b5kalisson.jpg",
+          "image": "https://mastampa.vteximg.com.br/arquivos/banner_3_aw.jpg",
           "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m5kalisson.jpg",
           "link": {
             "url": "/kalisson?_q=kalisson&map=ft"
-          }
-        },
-        {
-          "image": "https://mastampa.vteximg.com.br/arquivos/b7pantalones.jpg",
-          "mobileImage": "https://mastampa.vteximg.com.br/arquivos/m6pantalones.jpg",
-          "link": {
-            "url": "/Vestuario/Faldas-y-Pantalones/Largo"
           }
         }
       ]
